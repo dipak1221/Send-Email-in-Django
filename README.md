@@ -1,5 +1,10 @@
 # Send_Email_in_django
 
+#### to run project completely means To enable Email API  Go to this file (Email_RYTT) ......Email_demo\Email\Email\setting.py
+
+#### AND Edit it At the last line (Enter your gmail id and password )
+
+
 #### AND Go to your Gmail 
 * Step 1: At the top right corner of Gmail in with profile photo is showing click
 * Step 2: Click on Google Accounts
