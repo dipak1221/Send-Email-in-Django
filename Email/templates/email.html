@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+{{message|safe}}
+
+<form action="{% url 'send_email' %}" method="POST">{% csrf_token %}
+
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Please enter a valid email address" name="email" required>
+
+
+    <button type="submit" class="registerbtn" value="{{service}}" name="service" >Send Email</button>
+  </div>
+
+</form>
+
+</body>
+</html>
